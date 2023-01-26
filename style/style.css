@@ -161,4 +161,15 @@ hr{
     width: 1200px;
     height: 0px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+span{
+    color: #B9B9B9;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-privecy{
+    margin-left: 30px;
 }
