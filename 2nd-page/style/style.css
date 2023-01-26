@@ -9,7 +9,7 @@ body{
 
     
 }
-/* Cover Section */
+/* this isCover Section */
 .cover-area {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
