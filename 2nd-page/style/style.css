@@ -55,8 +55,8 @@ body{
     height: 424px;
     margin: 111px 0 0 80px;
 }
-
-/* manue section */
+/* Section two */
+/* manue */
 .manue {
     height: 312px;
     width: 300px;
@@ -93,43 +93,41 @@ body{
     align-content: space-evenly;
     align-items: center;
 }
-
-/* Blog Contain */
+/* Contains Blogs Section */
+/* Contain */
 .contain {
-    
+    /* position: absolute; */
     width: 312px;
-    height: 362px;
+    height: 242px;
     border: 1px solid rgb(228, 228, 228);
     border-radius: 10px;
+}
+.contain-blogs{
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .contain img {
     border-radius: 10px;
 }
-.transfer-btn {
+/* .transfer-btn {
     border: 1px solid;
     border-radius: 5px;
     font-size: 24px;
     padding: 4px 16px;
     margin: 20px 0 0 20px;
-}
+} */
 .contain>p {
     font-size: 18px;
 }
-.information {
-    display: flex;
-}
 
 .writing{
-    margin-left: 20px;
+    margin: 0;
 }
-.comment {
-    margin-left: 30px;
+.writing-1{
     
-}
-.time{
-    margin-left: 20px;
-    
+    margin: 0;
+    color:#4D4D4D;
 }
 
 /* Blogs */
@@ -143,7 +141,7 @@ body{
     grid-row: 1 / span 3;
 }
 
-/* this is footer section */
+/* footer section */
 
 .footer-section{
     text-align: center;
