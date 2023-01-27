@@ -38,13 +38,13 @@ body{
     width: 100%;
 }
 
-.main-title-area>h1 {
+.cover-title-area>h1 {
     margin: 0%;
     font-size: 5vw;
     line-height: 110%;;
 }
 
-.main-title-area>p {
+.cover-title-area>p {
     font-size: 1.1vw;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -62,40 +62,12 @@ body{
     margin-right: 10px;
 }
 
-.main-title-area {
+.cover-title-area {
     margin: 23% 0 0 15%;
 }
 
-/* manue section */
+/* this is manue section */
 
-/* .manue {
-    height: 312px;
-    border-radius: 10px;
-    background-color: #f2aa4cff;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-} */
-
-/* .manue-btn>a:hover {
-    background-color: rgb(231, 184, 184);
-}
-.manue-btn>a {
-    width: 200px;
-    height: 64px;
-    border-radius: 10px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-} */
 .manue {
     height: 312px;
     width: 300px;
@@ -251,17 +223,17 @@ span{
         font-size: 20px;
         padding: 12px;
     }
-    .main-title-area {
+    .cover-title-area {
         margin: 40px 0 65px 65px;
     }
     .cover-title {
         width: 100%;
         height: 30%;
     }
-    .main-title-area>h1 {
+    .cover-title-area>h1 {
         font-size: 40px;
     }
-    .main-title-area>p {
+    .cover-title-area>p {
         font-size: 14px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -284,18 +256,18 @@ span{
             grid-template-columns: repeat(1, 1fr);
             color: white;
         }
-        .main-title-area>h1 {
+        .cover-title-area>h1 {
             margin: 0%;
             font-size: 22px;
             line-height: 110%;;
         }
-        .main-title-area>p {
+        .cover-title-area>p {
             /* font-size: 16px; */
             font-size: 14px;
             margin-top: 8px;
             margin-bottom: 12px;
         }
-        .main-title-area {
+        .cover-title-area {
             margin: 25px 5px 0 5px;
         }
         .cover-image img {
@@ -312,6 +284,7 @@ span{
     }
     .manue {
         height: 0px;
+
         border-radius: 10px;
         background-color: none;
         display: grid;
